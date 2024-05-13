@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+font-family: Gilroy-Bold;
+}
+#body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 2, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#login , #signup{
+    width: 25%;
+    height: 80%;
+  background-color: rgb(46, 3, 86);
+  padding: 20px 20px 20px 40px;
+}
+
+#nav{
+    display: flex;
+     color: white;
+     padding-left: 10px;
+     justify-content: space-between;
+    }
+#nav h6{
+  font-size: 12px;
+  font-weight: 100px;
+}
+#nav ul{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+h1{
+  padding: 60px 0px ;
+  color: white;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.b1{
+  display: flex;
+  width: 100%;
+  background-color:  rgb(46, 3, 86);
+   color: white;
+   padding: 10px;
+   margin-bottom: 20px;
+   align-items: start;
+   gap: 5px;
+   border: 2px solid rgb(202, 47, 111);
+   border-radius: 50px;
+   
+}
+h6{
+  font-size: 14px;
+  font-weight: 200;
+  margin-left: 60%;
+}
+#main1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 200;
+}
+#main1 form{
+  color: #fff;
+ align-items: center;
+}
+#main1 p{
+  color: rgb(202, 47, 111) ;
+}
+.b2{
+  margin-top: 40px;
+  margin-bottom: 120px;
+  display: flex;
+  width: 100%;
+  background-color:  rgb(202, 47, 111);
+   color: white;
+   padding: 10px;
+   margin-bottom: 20px;
+   justify-content: center;
+   gap: 5px;
+   border: 2px solid rgb(202, 47, 111);
+   border-radius: 50px;
+   font-size: 20px;
+   font-weight: 600;
+}
+#main2{
+ 
+ 
+ }
+#main2 h4{
+  margin-left: 35%;
+margin-top: 30%;
+color: #fff;
+font-size: 16px;
+font-weight: 200;
+margin-bottom: 20px ;
+}
+#main2 #logo{
+  margin-left: 30%;
+  margin-bottom: 20px ;
+  display: flex;
+  gap: 20px;
+}
+#main2 i{
+  background-color: #fff;
+ padding: 5px;
+}
+#last{
+  display: flex ;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+#a{
+  margin-left: 40px;
+  color: #fff;
+  
+}
+#b{
+  color: rgb(202, 47, 111);
+  font-weight: lighter;
+}
+#main4{
+  display: flex;
+  gap: 10px;
+}
+
+p{
+  color: transparent;
+}
+.main5{
+  margin-top: 85px;
+}
+#main7{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+}
+#main7 form{
+  color: #fff;
+ align-items: center;
+}
+#main7 #ip{
+  color: rgb(202, 47, 111) ;
+  padding: 4px ;
+}
